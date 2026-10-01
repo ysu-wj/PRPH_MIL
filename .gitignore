@@ -1,0 +1,41 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+.conda/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Training outputs
+results/
+logs/
+checkpoints/
+runs/
+*.log
+*.pth
+*.ckpt
+
+# Large pathology data and extracted features
+*.svs
+*.tif
+*.tiff
+*.h5
+*.hdf5
+*.pt
+
+# Packaging and test caches
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
